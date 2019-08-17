@@ -19,7 +19,8 @@ services:
         max-file: "50"
         tag: squid-proxy
     volumes:
-      - ./var:/var/spool/squid
+      - ./var/cache:/var/spool/squid
+      - ./var/log:/var/log/squid3
     ports:
       - ${PORT}:3128
       - ${SSH_PORT}:22
