@@ -1,6 +1,6 @@
 FROM ubuntu:16.04
 
-LABEL maintainer="anton.lebedev@cimpleo.com"
+LABEL maintainer="mailbox@lebster.me"
 
 RUN apt-get update
 RUN apt-get install -yq squid curl apache2-utils
