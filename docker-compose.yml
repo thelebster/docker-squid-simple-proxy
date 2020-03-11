@@ -8,7 +8,7 @@ services:
       - SSH_PORT=${SSH_PORT}
       - SQUID_USER=${SQUID_USER}
       - SQUID_PASS=${SQUID_PASS}
-    image: thelebster/squid-proxy
+    image: thelebster/docker-squid-simple-proxy
     hostname: squid-proxy
     container_name: squid-proxy
     restart: always
