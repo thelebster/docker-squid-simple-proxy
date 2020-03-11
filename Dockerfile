@@ -1,4 +1,4 @@
-FROM ubuntu:16.04
+FROM debian:buster-slim
 
 LABEL maintainer="mailbox@lebster.me"
 
