@@ -20,7 +20,7 @@ services:
         tag: squid-proxy
     volumes:
       - ./var/cache:/var/spool/squid
-      - ./var/log:/var/log/squid3
+      - ./var/log:/var/log/squid
     ports:
       - ${PORT}:3128
       - ${SSH_PORT}:22
